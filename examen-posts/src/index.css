@@ -1,0 +1,10 @@
+/* index.css es la hoja de estilos global de la aplicación.
+   Aquí se importa Tailwind CSS para poder usar sus clases utilitarias en todos los componentes. */
+@import "tailwindcss";
+
+#root{
+   max-width: 1280px;
+   margin:0auto;
+   padding: 2rem;
+   text-align: center;
+}
